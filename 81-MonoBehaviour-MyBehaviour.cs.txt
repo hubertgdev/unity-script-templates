@@ -1,0 +1,53 @@
+﻿using UnityEngine;
+//using UnityEngine.UI;
+//using UnityEngine.SceneManagement;
+
+//using System;
+//using System.Collections.Generic;
+
+//using MuffinTools;
+
+///<summary>
+/// 
+///</summary>
+//[AddComponentMenu("Scripts/#SCRIPTNAME#")]
+//[RequireComponent(typeof())]
+public class #SCRIPTNAME# : MonoBehaviour
+{
+
+	#region Properties
+	#endregion
+
+	
+	#region Initialization
+	#endregion
+
+
+	#region Loop
+	#endregion
+
+	
+	#region Public Methods
+	#endregion
+
+	
+	#region Protected Methods
+	#endregion
+
+	
+	#region Private Methods
+	#endregion
+
+	
+	#region Accessors
+	#endregion
+
+	
+	#region Debug & Tests
+
+	#if UNITY_EDITOR
+	#endif
+
+	#endregion
+
+}

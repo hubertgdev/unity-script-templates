@@ -16,6 +16,8 @@ git clone https://github.com/DaCookie/unity-script-templates
 
 Now, if you try to create a new Asset (by right-clicking in the `Project` view, or from `Assets` menu), you can see some new menus for script creation !
 
+![Create asset menu example](menu-example.png)
+
 Obviously, you can create your own script templates, or simply adapt mines for your common usage.
 
 ## Script Templates naming
@@ -32,7 +34,7 @@ Let's see the composition of that... thing :
 | - | - | - | - | - |
 | Menu position | Menu name | Submenu name | Default name of the new created file | Created file extension |
 
-Note that submenus are facultative, but you can setup as many submenus as you want, by separating elements with `__`.
+Note that submenus are facultative, but you can setup as many submenus as you want, by separating elements with "`__`".
 
 ## Script Template content
 

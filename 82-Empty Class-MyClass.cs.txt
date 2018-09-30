@@ -1,0 +1,44 @@
+﻿//using UnityEngine;
+
+//using System;
+//using System.Collections.Generic;
+
+//using MuffinTools;
+
+///<summary>
+/// 
+///</summary>
+//[System.Serializable]
+public class #SCRIPTNAME#
+{
+
+	#region Properties
+	#endregion
+
+	
+	#region Initialization
+
+	//public #SCRIPTNAME#()
+	//{
+	
+	//}
+
+	#endregion
+
+	
+	#region Public Methods
+	#endregion
+
+	
+	#region Protected Methods
+	#endregion
+
+	
+	#region Private Methods
+	#endregion
+
+	
+	#region Accessors
+	#endregion
+
+}

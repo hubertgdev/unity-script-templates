@@ -1,0 +1,21 @@
+﻿//using UnityEngine;
+
+//using System;
+//using System.Collections.Generic;
+
+//using MuffinTools;
+
+///<summary>
+/// 
+///</summary>
+public interface #SCRIPTNAME#
+{
+
+	#region Methods
+	#endregion
+
+	
+	#region Accessors
+	#endregion
+
+}

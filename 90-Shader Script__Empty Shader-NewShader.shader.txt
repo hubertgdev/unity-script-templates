@@ -1,0 +1,19 @@
+Shader "Custom/#NAME#"
+{
+
+	Properties
+	{
+		
+	}
+
+	SubShader
+	{
+		Pass
+		{
+			
+		}
+	}
+	
+	//FallBack "Diffuse"
+
+}

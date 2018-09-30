@@ -1,0 +1,47 @@
+﻿using UnityEngine;
+using UnityEditor;
+
+//using System;
+//using System.Collections.Generic;
+
+//using MuffinTools;
+
+///<summary>
+/// 
+///</summary>
+//[CustomEditor(typeof(#SCRIPTNAME#))]
+public class #SCRIPTNAME# : Editor
+{
+
+	#region Attributes
+	#endregion
+
+
+	#region Initialization
+
+	//private void OnEnable()
+	//{
+	//
+	//}
+
+	#endregion
+
+
+	#region UI
+	
+	//public override void OnInspectorGUI()
+	//{
+	//		base.OnInspectorGUI();
+	//}
+
+	#endregion
+
+
+	#region Public Methods
+	#endregion
+
+
+	#region Private Methods
+	#endregion
+
+}

@@ -1,0 +1,80 @@
+﻿using UnityEngine;
+using UnityEditor;
+
+//using System;
+//using System.Collections.Generic;
+
+//using MuffinTools;
+
+///<summary>
+/// 
+///</summary>
+public class #SCRIPTNAME# : EditorWindow
+{
+
+	#region Properties
+
+	// Constants
+
+	// Name (and Path) of the tool in menus.
+	private const string MENU_ITEM = "Tools/#SCRIPTNAME#";
+
+	// Title of the tool's window.	
+	private const string WINDOW_TITLE = "#SCRIPTNAME#";
+
+	// Priority in menus.
+	private const int PRIORITY = 1;
+
+	#endregion
+
+
+	#region Initialization
+
+	//private void OnEnable()
+	//{
+	
+	//}
+
+	#endregion
+
+
+	#region UI
+
+	//private void OnGUI()
+	//{
+		
+	//}
+
+	#endregion
+
+
+	#region Public Methods
+	#endregion
+
+
+	#region Private Methods
+		
+	/// <summary>
+	/// Gets the window of this tool, or create it if it's not already open.
+	/// </summary>
+	[MenuItem(MENU_ITEM, false, PRIORITY)]
+	private static void ShowWindow()
+	{
+		#SCRIPTNAME# window = EditorWindow.GetWindow<#SCRIPTNAME#>(false, WINDOW_TITLE, true) as #SCRIPTNAME#;
+		window.Show();
+	}
+
+	/// <summary>
+	/// Determines if the tool's window can be open or not.
+	/// If it can't be open, the menu will be disabled.
+	/// </summary>
+	/// <returns>Returns true if the window can be open, false if not.</returns>
+	[MenuItem(MENU_ITEM, true, PRIORITY)]
+	private static bool CanShowWindow()
+	{
+		return true;
+	}
+
+	#endregion
+
+}
