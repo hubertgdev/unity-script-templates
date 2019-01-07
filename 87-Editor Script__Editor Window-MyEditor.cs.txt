@@ -16,19 +16,14 @@ public class #SCRIPTNAME# : EditorWindow
 
 	// Constants
 
-	// Name (and Path) of the tool in menus.
-	private const string MENU_ITEM = "Tools/#SCRIPTNAME#";
-
-	// Title of the tool's window.
-	private const string WINDOW_TITLE = "#SCRIPTNAME#";
-
-	// Priority in menus.
-	private const int PRIORITY = 1;
+	private const string EDITOR_WINDOW_MENU_ITEM = "Tools/#SCRIPTNAME#";
+	private const string EDITOR_WINDOW_TITLE = "#SCRIPTNAME#";
+	private const int EDITOR_WINDOW_PRIORITY = 1;
 
 	#endregion
 
 
-	#region Initialization
+	#region Lifecycle
 
 	//private void OnEnable()
 	//{
@@ -57,19 +52,18 @@ public class #SCRIPTNAME# : EditorWindow
 	/// <summary>
 	/// Gets the window of this tool, or create it if it's not already open.
 	/// </summary>
-	[MenuItem(MENU_ITEM, false, PRIORITY)]
+	[MenuItem(EDITOR_WINDOW_MENU_ITEM, false, EDITOR_WINDOW_PRIORITY)]
 	private static void ShowWindow()
 	{
-		#SCRIPTNAME# window = EditorWindow.GetWindow<#SCRIPTNAME#>(false, WINDOW_TITLE, true) as #SCRIPTNAME#;
+		#SCRIPTNAME# window = EditorWindow.GetWindow<#SCRIPTNAME#>(false, EDITOR_WINDOW_TITLE, true) as #SCRIPTNAME#;
 		window.Show();
 	}
 
 	/// <summary>
 	/// Determines if the tool's window can be open or not.
-	/// If it can't be open, the menu will be disabled.
 	/// </summary>
-	/// <returns>Returns true if the window can be open, false if not.</returns>
-	[MenuItem(MENU_ITEM, true, PRIORITY)]
+	/// <returns>Returns true if the window can be open, otherwise false.</returns>
+	[MenuItem(EDITOR_WINDOW_MENU_ITEM, true, EDITOR_WINDOW_PRIORITY)]
 	private static bool CanShowWindow()
 	{
 		return true;

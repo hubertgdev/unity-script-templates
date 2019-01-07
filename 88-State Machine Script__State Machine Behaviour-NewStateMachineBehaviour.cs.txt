@@ -7,7 +7,6 @@
 /// 
 ///</summary>
 //[AddComponentMenu("Scripts/#SCRIPTNAME#")]
-//[RequireComponent(typeof())]
 public class #SCRIPTNAME# : StateMachineBehaviour
 {
 

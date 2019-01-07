@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 //using UnityEngine.UI;
+//using UnityEngine.Events;
 //using UnityEngine.SceneManagement;
 
 //using System;
@@ -19,11 +20,7 @@ public class #SCRIPTNAME# : MonoBehaviour
 	#endregion
 
 	
-	#region Initialization
-	#endregion
-
-
-	#region Loop
+	#region Lifecycle
 	#endregion
 
 	
@@ -45,8 +42,8 @@ public class #SCRIPTNAME# : MonoBehaviour
 	
 	#region Debug & Tests
 
-	#if UNITY_EDITOR
-	#endif
+#if UNITY_EDITOR
+#endif
 
 	#endregion
 
