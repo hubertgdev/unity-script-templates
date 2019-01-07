@@ -14,7 +14,7 @@ namespace MuffinTools
 		#endregion
 
 		
-		#region Initialization
+		#region Lifecycle
 		#endregion
 
 		

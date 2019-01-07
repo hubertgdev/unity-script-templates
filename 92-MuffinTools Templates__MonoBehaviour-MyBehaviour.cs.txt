@@ -6,19 +6,15 @@ namespace MuffinTools
 	///<summary>
 	/// 
 	///</summary>
-	//[AddComponentMenu("MuffinTools/#SCRIPTNAME#")]
+	//[AddComponentMenu("Muffin Tools/#SCRIPTNAME#")]
 	public class #SCRIPTNAME# : MonoBehaviour
 	{
 
-		#region Properties
+		#region Attributes
 		#endregion
 
 		
-		#region Initialization
-		#endregion
-
-		
-		#region Loop
+		#region Lifecycle
 		#endregion
 
 		
@@ -40,8 +36,8 @@ namespace MuffinTools
 		
 		#region Debug & Tests
 
-		#if UNITY_EDITOR
-		#endif
+#if UNITY_EDITOR
+#endif
 
 		#endregion
 

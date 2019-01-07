@@ -7,7 +7,7 @@ namespace MuffinTools
 	///<summary>
 	/// 
 	///</summary>
-	//[CustomEditor(typeof())]
+	//[CustomEditor(typeof(#SCRIPTNAME#))]
 	public class #SCRIPTNAME# : Editor
 	{
 
@@ -15,7 +15,7 @@ namespace MuffinTools
 		#endregion
 
 
-		#region Lifecycle
+		#region Initialization
 		#endregion
 
 

@@ -4,6 +4,7 @@
 	///<summary>
 	/// 
 	///</summary>
+	//[System.Serializable]
 	public class #SCRIPTNAME#
 	{
 
@@ -11,7 +12,7 @@
 		#endregion
 
 		
-		#region Initialisation
+		#region Initialization
 
 		//public #SCRIPTNAME#()
 		//{

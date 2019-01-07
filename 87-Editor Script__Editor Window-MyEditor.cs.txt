@@ -19,7 +19,7 @@ public class #SCRIPTNAME# : EditorWindow
 	// Name (and Path) of the tool in menus.
 	private const string MENU_ITEM = "Tools/#SCRIPTNAME#";
 
-	// Title of the tool's window.	
+	// Title of the tool's window.
 	private const string WINDOW_TITLE = "#SCRIPTNAME#";
 
 	// Priority in menus.
