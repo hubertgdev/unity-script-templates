@@ -10,7 +10,7 @@ namespace MuffinTools
 	public class #SCRIPTNAME# : EditorWindow
 	{
 
-		#region Properties
+		#region Attributes
 
 		private const string EDITOR_WINDOW_MENU_ITEM = "Muffin Tools/#SCRIPTNAME#";
 		private const string EDITOR_WINDOW_TITLE = "#SCRIPTNAME#";
@@ -41,6 +41,16 @@ namespace MuffinTools
 		{
 			#SCRIPTNAME# window = EditorWindow.GetWindow<#SCRIPTNAME#>(false, EDITOR_WINDOW_TITLE, true) as #SCRIPTNAME#;
 			window.Show();
+		}
+
+		/// <summary>
+		/// Determines if the tool's window can be open or not.
+		/// </summary>
+		/// <returns>Returns true if the window can be open, otherwise false.</returns>
+		[MenuItem(EDITOR_WINDOW_MENU_ITEM, true, EDITOR_WINDOW_PRIORITY)]
+		private static bool CanShowWindow()
+		{
+			return true;
 		}
 
 		#endregion
