@@ -12,7 +12,7 @@
 public struct #SCRIPTNAME#
 {
 
-	#region Attributes
+	#region Properties
 	#endregion
 
 	

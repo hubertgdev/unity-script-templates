@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
+//using UnityEngine.Events;
 
 //using System;
-//using System.Collections;
 //using System.Collections.Generic;
 
 //using MuffinTools;
@@ -17,7 +17,7 @@ public class #SCRIPTNAME# : ScriptableObject
 	#endregion
 
 	
-	#region Initialization
+	#region Lifecycle
 	#endregion
 
 	

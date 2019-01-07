@@ -13,11 +13,11 @@ using UnityEditor;
 public class #SCRIPTNAME# : Editor
 {
 
-	#region Attributes
+	#region Properties
 	#endregion
 
 
-	#region Initialization
+	#region Lifecycle
 
 	//private void OnEnable()
 	//{
