@@ -1,47 +1,47 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-//using System;
-//using System.Collections.Generic;
-
-//using MuffinTools;
-
-///<summary>
-/// 
-///</summary>
-//[CustomEditor(typeof(#SCRIPTNAME#))]
-public class #SCRIPTNAME# : Editor
+namespace Game
 {
 
-	#region Properties
-	#endregion
+	///<summary>
+	/// 
+	///</summary>
+	//[CustomEditor(typeof(#SCRIPTNAME#))]
+	public class #SCRIPTNAME# : Editor
+	{
+
+		#region Properties
+		#endregion
 
 
-	#region Lifecycle
+		#region Lifecycle
 
-	//private void OnEnable()
-	//{
-	//
-	//}
+		//private void OnEnable()
+		//{
+		//
+		//}
 
-	#endregion
-
-
-	#region UI
-	
-	//public override void OnInspectorGUI()
-	//{
-	//		base.OnInspectorGUI();
-	//}
-
-	#endregion
+		#endregion
 
 
-	#region Public Methods
-	#endregion
+		#region UI
+		
+		//public override void OnInspectorGUI()
+		//{
+		//		base.OnInspectorGUI();
+		//}
+
+		#endregion
 
 
-	#region Private Methods
-	#endregion
+		#region Public Methods
+		#endregion
+
+
+		#region Private Methods
+		#endregion
+
+	}
 
 }

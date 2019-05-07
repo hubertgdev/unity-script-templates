@@ -1,39 +1,38 @@
 ﻿using UnityEngine;
-//using UnityEngine.Events;
 
-//using System;
-//using System.Collections.Generic;
-
-//using MuffinTools;
-
-///<summary>
-/// 
-///</summary>
-//[CreateAssetMenu(fileName = "New#SCRIPTNAME#", menuName = "#SCRIPTNAME#", order = 750)]
-public class #SCRIPTNAME# : ScriptableObject
+namespace Game
 {
 
-	#region Properties
-	#endregion
+	///<summary>
+	/// 
+	///</summary>
+	//[CreateAssetMenu(fileName = "New#SCRIPTNAME#", menuName = "#SCRIPTNAME#")]
+	public class #SCRIPTNAME# : ScriptableObject
+	{
 
-	
-	#region Lifecycle
-	#endregion
+		#region Properties
+		#endregion
 
-	
-	#region Public Methods
-	#endregion
+		
+		#region Lifecycle
+		#endregion
 
-	
-	#region Protected Methods
-	#endregion
+		
+		#region Public Methods
+		#endregion
 
-	
-	#region Private Methods
-	#endregion
+		
+		#region Protected Methods
+		#endregion
 
-	
-	#region Accessors
-	#endregion
+		
+		#region Private Methods
+		#endregion
+
+		
+		#region Accessors
+		#endregion
+
+	}
 
 }

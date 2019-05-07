@@ -1,44 +1,44 @@
 ﻿//using UnityEngine;
 
-//using System;
-//using System.Collections.Generic;
-
-//using MuffinTools;
-
-///<summary>
-/// 
-///</summary>
-//[System.Serializable]
-public struct #SCRIPTNAME#
+namespace Game
 {
 
-	#region Properties
-	#endregion
+	///<summary>
+	/// 
+	///</summary>
+	//[System.Serializable]
+	public struct #SCRIPTNAME#
+	{
 
-	
-	#region Initialization
+		#region Properties
+		#endregion
 
-	//public #SCRIPTNAME#()
-	//{
 		
-	//}
+		#region Initialization
 
-	#endregion
+		//public #SCRIPTNAME#()
+		//{
+			
+		//}
 
-	
-	#region Public Methods
-	#endregion
+		#endregion
 
-	
-	#region Protected Methods
-	#endregion
+		
+		#region Public Methods
+		#endregion
 
-	
-	#region Private Methods
-	#endregion
+		
+		#region Protected Methods
+		#endregion
 
-	
-	#region Accessors
-	#endregion
+		
+		#region Private Methods
+		#endregion
+
+		
+		#region Accessors
+		#endregion
+
+	}
 
 }
