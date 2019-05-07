@@ -43,16 +43,6 @@ namespace MuffinTools
 			window.Show();
 		}
 
-		/// <summary>
-		/// Determines if the tool's window can be open or not.
-		/// </summary>
-		/// <returns>Returns true if the window can be open, otherwise false.</returns>
-		[MenuItem(EDITOR_WINDOW_MENU_ITEM, true, EDITOR_WINDOW_PRIORITY)]
-		private static bool CanShowWindow()
-		{
-			return true;
-		}
-
 		#endregion
 
 	}
