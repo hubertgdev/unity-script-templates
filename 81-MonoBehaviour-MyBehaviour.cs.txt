@@ -1,50 +1,38 @@
 ﻿using UnityEngine;
-//using UnityEngine.UI;
-//using UnityEngine.Events;
-//using UnityEngine.SceneManagement;
 
-//using System;
-//using System.Collections.Generic;
-
-//using MuffinTools;
-
-///<summary>
-/// 
-///</summary>
-//[AddComponentMenu("Scripts/#SCRIPTNAME#")]
-//[RequireComponent(typeof())]
-public class #SCRIPTNAME# : MonoBehaviour
+namespace Game
 {
 
-	#region Properties
-	#endregion
+	///<summary>
+	/// 
+	///</summary>
+	//[AddComponentMenu("Scripts/#SCRIPTNAME#")]
+	public class #SCRIPTNAME# : MonoBehaviour
+	{
 
-	
-	#region Lifecycle
-	#endregion
+		#region Properties
+		#endregion
 
-	
-	#region Public Methods
-	#endregion
+		
+		#region Lifecycle
+		#endregion
 
-	
-	#region Protected Methods
-	#endregion
+		
+		#region Public Methods
+		#endregion
 
-	
-	#region Private Methods
-	#endregion
+		
+		#region Protected Methods
+		#endregion
 
-	
-	#region Accessors
-	#endregion
+		
+		#region Private Methods
+		#endregion
 
-	
-	#region Debug & Tests
+		
+		#region Accessors
+		#endregion
 
-#if UNITY_EDITOR
-#endif
-
-	#endregion
+	}
 
 }
