@@ -1,62 +1,34 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-namespace Game
+///<summary>
+/// 
+///</summary>
+public class #SCRIPTNAME# : EditorWindow
 {
 
-	///<summary>
-	/// 
-	///</summary>
-	public class #SCRIPTNAME# : EditorWindow
-	{
+	private const string EDITOR_WINDOW_MENU_ITEM = "Tools/#SCRIPTNAME#";
+	private const string EDITOR_WINDOW_TITLE = "#SCRIPTNAME#";
+	private const int EDITOR_WINDOW_PRIORITY = 1;
 
-		#region Properties
+	//private void OnEnable()
+	//{
+	
+	//}
 
-		private const string EDITOR_WINDOW_MENU_ITEM = "Tools/#SCRIPTNAME#";
-		private const string EDITOR_WINDOW_TITLE = "#SCRIPTNAME#";
-		private const int EDITOR_WINDOW_PRIORITY = 1;
-
-		#endregion
-
-
-		#region Lifecycle
-
-		//private void OnEnable()
-		//{
+	//private void OnGUI()
+	//{
 		
-		//}
-
-		#endregion
-
-
-		#region UI
-
-		//private void OnGUI()
-		//{
-			
-		//}
-
-		#endregion
-
-
-		#region Public Methods
-		#endregion
-
-
-		#region Private Methods
-			
-		/// <summary>
-		/// Gets the window of this tool, or create it if it's not already open.
-		/// </summary>
-		[MenuItem(EDITOR_WINDOW_MENU_ITEM, false, EDITOR_WINDOW_PRIORITY)]
-		private static void ShowWindow()
-		{
-			#SCRIPTNAME# window = GetWindow<#SCRIPTNAME#>(false, EDITOR_WINDOW_TITLE, true) as #SCRIPTNAME#;
-			window.Show();
-		}
-
-		#endregion
-
+	//}
+		
+	/// <summary>
+	/// Gets the window of this tool, or create it if it's not already open.
+	/// </summary>
+	[MenuItem(EDITOR_WINDOW_MENU_ITEM, false, EDITOR_WINDOW_PRIORITY)]
+	private static void ShowWindow()
+	{
+		#SCRIPTNAME# window = GetWindow<#SCRIPTNAME#>(false, EDITOR_WINDOW_TITLE, true) as #SCRIPTNAME#;
+		window.Show();
 	}
 
 }

@@ -1,38 +1,12 @@
 ﻿using UnityEngine;
 
-namespace Game
+///<summary>
+/// 
+///</summary>
+//[AddComponentMenu("Scripts/#SCRIPTNAME#")]
+public class #SCRIPTNAME# : MonoBehaviour
 {
 
-	///<summary>
-	/// 
-	///</summary>
-	//[AddComponentMenu("Scripts/#SCRIPTNAME#")]
-	public class #SCRIPTNAME# : MonoBehaviour
-	{
-
-		#region Properties
-		#endregion
-
-		
-		#region Lifecycle
-		#endregion
-
-		
-		#region Public Methods
-		#endregion
-
-		
-		#region Protected Methods
-		#endregion
-
-		
-		#region Private Methods
-		#endregion
-
-		
-		#region Accessors
-		#endregion
-
-	}
+	
 
 }

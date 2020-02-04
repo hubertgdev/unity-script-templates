@@ -1,38 +1,12 @@
 ﻿using UnityEngine;
 
-namespace Game
+///<summary>
+/// 
+///</summary>
+//[CreateAssetMenu(fileName = "New#SCRIPTNAME#", menuName = "#SCRIPTNAME#")]
+public class #SCRIPTNAME# : ScriptableObject
 {
 
-	///<summary>
-	/// 
-	///</summary>
-	//[CreateAssetMenu(fileName = "New#SCRIPTNAME#", menuName = "#SCRIPTNAME#")]
-	public class #SCRIPTNAME# : ScriptableObject
-	{
 
-		#region Properties
-		#endregion
-
-		
-		#region Lifecycle
-		#endregion
-
-		
-		#region Public Methods
-		#endregion
-
-		
-		#region Protected Methods
-		#endregion
-
-		
-		#region Private Methods
-		#endregion
-
-		
-		#region Accessors
-		#endregion
-
-	}
 
 }

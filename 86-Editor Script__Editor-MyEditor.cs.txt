@@ -1,47 +1,21 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-namespace Game
+///<summary>
+/// 
+///</summary>
+//[CustomEditor(typeof(#SCRIPTNAME#))]
+public class #SCRIPTNAME# : Editor
 {
 
-	///<summary>
-	/// 
-	///</summary>
-	//[CustomEditor(typeof(#SCRIPTNAME#))]
-	public class #SCRIPTNAME# : Editor
-	{
+	//private void OnEnable()
+	//{
+	//
+	//}
 
-		#region Properties
-		#endregion
-
-
-		#region Lifecycle
-
-		//private void OnEnable()
-		//{
-		//
-		//}
-
-		#endregion
-
-
-		#region UI
-		
-		//public override void OnInspectorGUI()
-		//{
-		//		base.OnInspectorGUI();
-		//}
-
-		#endregion
-
-
-		#region Public Methods
-		#endregion
-
-
-		#region Private Methods
-		#endregion
-
-	}
+	//public override void OnInspectorGUI()
+	//{
+	//		base.OnInspectorGUI();
+	//}
 
 }

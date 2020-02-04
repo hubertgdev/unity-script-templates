@@ -1,44 +1,15 @@
 ﻿//using UnityEngine;
 
-namespace Game
+///<summary>
+/// 
+///</summary>
+//[System.Serializable]
+public class #SCRIPTNAME#
 {
-	
-	///<summary>
-	/// 
-	///</summary>
-	//[System.Serializable]
-	public class #SCRIPTNAME#
-	{
 
-		#region Properties
-		#endregion
+	//public #SCRIPTNAME#()
+	//{
 
-		
-		#region Initialization
-
-		//public #SCRIPTNAME#()
-		//{
-		
-		//}
-
-		#endregion
-
-		
-		#region Public Methods
-		#endregion
-
-		
-		#region Protected Methods
-		#endregion
-
-		
-		#region Private Methods
-		#endregion
-
-		
-		#region Accessors
-		#endregion
-
-	}
+	//}
 
 }
