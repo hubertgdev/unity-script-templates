@@ -11,7 +11,7 @@ namespace MuffinTools
 	public class #SCRIPTNAME# : Editor
 	{
 
-		#region Attributes
+		#region Properties
 		#endregion
 
 

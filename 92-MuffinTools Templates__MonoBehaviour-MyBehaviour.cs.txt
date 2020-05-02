@@ -10,7 +10,7 @@ namespace MuffinTools
 	public class #SCRIPTNAME# : MonoBehaviour
 	{
 
-		#region Attributes
+		#region Properties
 		#endregion
 
 		
