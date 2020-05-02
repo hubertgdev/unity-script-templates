@@ -1,0 +1,54 @@
+﻿using UnityEngine;
+using UnityEditor;
+
+namespace MuffinDev
+{
+
+	///<summary>
+	/// 
+	///</summary>
+	public class #SCRIPTNAME# : EditorWindow
+	{
+
+		#region Properties
+
+		private const string MENU_ITEM = MuffinDevUtility.MENU_NAME + "#SCRIPTNAME#";
+        private const string WINDOW_TITLE = "#SCRIPTNAME#";
+
+		#endregion
+
+
+		#region Lifecycle
+
+		//private void OnEnable()
+		//{
+		
+		//}
+
+		#endregion
+
+
+		#region Public Methods
+
+		[MenuItem(MENU_ITEM, false, MuffinDevUtility.MENU_ORDER)]
+        public static void ShowWindow()
+        {
+            "#SCRIPTNAME#" window = GetWindow<"#SCRIPTNAME#">(false, WINDOW_TITLE, true) as "#SCRIPTNAME#";
+            window.Show();
+        }
+
+		#endregion
+
+
+		#region UI
+
+		//private void OnGUI()
+		//{
+			
+		//}
+
+		#endregion
+
+	}
+
+}

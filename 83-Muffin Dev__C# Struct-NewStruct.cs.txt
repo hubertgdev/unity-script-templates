@@ -1,0 +1,15 @@
+namespace MuffinDev
+{
+
+	///<summary>
+	/// 
+	///</summary>
+	[System.Serializable]
+	public struct #SCRIPTNAME#
+	{
+
+		
+
+	}
+
+}

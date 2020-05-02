@@ -1,0 +1,17 @@
+using UnityEngine;
+
+namespace MuffinDev
+{
+
+    ///<summary>
+    /// 
+    ///</summary>
+    [AddComponentMenu(MuffinDevUtility.MENU_NAME + "#SCRIPTNAME#")]
+    public class #SCRIPTNAME# : MonoBehaviour
+    {
+
+        
+
+    }
+
+}

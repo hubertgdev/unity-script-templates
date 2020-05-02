@@ -1,0 +1,26 @@
+﻿using UnityEngine;
+using UnityEditor;
+
+namespace MuffinDev
+{
+
+	///<summary>
+	/// 
+	///</summary>
+	//[CustomEditor(typeof(#SCRIPTNAME#))]
+	public class #SCRIPTNAME# : Editor
+	{
+
+		//private void OnEnable()
+		//{
+		//
+		//}
+
+		//public override void OnInspectorGUI()
+		//{
+		//		base.OnInspectorGUI();
+		//}
+
+	}
+
+}

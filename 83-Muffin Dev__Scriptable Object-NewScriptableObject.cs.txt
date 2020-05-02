@@ -1,0 +1,17 @@
+﻿using UnityEngine;
+
+namespace MuffinDev
+{
+
+    ///<summary>
+    /// 
+    ///</summary>
+    [CreateAssetMenu(fileName = "New#SCRIPTNAME#", menuName = MuffinDevUtility.MENU_NAME + "#SCRIPTNAME#", order = MuffinDevUtility.MENU_ORDER)]
+    public class #SCRIPTNAME# : ScriptableObject
+    {
+
+        
+
+    }
+
+}
