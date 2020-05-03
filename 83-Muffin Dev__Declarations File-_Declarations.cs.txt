@@ -7,7 +7,7 @@
     public class #SCRIPTNAME#
     {
 
-        static #SCRIPTNAME#
+        static #SCRIPTNAME#()
         {
             CustomDefinesManager.AddDefine("MUFFINDEV_");
             CustomDefinesManager.AddDefine("MUFFINDEV__1");
