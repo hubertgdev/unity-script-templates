@@ -9,10 +9,13 @@
 
         static #SCRIPTNAME#()
         {
-            CustomDefinesManager.AddDefine("MUFFINDEV_");
-            CustomDefinesManager.AddDefine("MUFFINDEV__1");
-            CustomDefinesManager.AddDefine("MUFFINDEV__1_0");
-            CustomDefinesManager.AddDefine("MUFFINDEV__1_0_0");
+            CustomDefinesManager.AddDefines(new string[]
+            {
+                "MUFFINDEV_",
+                "MUFFINDEV__1",
+                "MUFFINDEV__1_0",
+                "MUFFINDEV__1_0_0"
+            });
         }
 
     }
