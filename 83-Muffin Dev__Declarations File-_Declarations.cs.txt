@@ -1,0 +1,20 @@
+﻿namespace MuffinDev.Declarations
+{
+
+    #if UNITY_EDITOR
+    [UnityEditor.InitializeOnLoad]
+    #endif
+    public class #SCRIPTNAME#
+    {
+
+        static #SCRIPTNAME#
+        {
+            CustomDefinesManager.AddDefine("MUFFINDEV_");
+            CustomDefinesManager.AddDefine("MUFFINDEV__1");
+            CustomDefinesManager.AddDefine("MUFFINDEV__1_0");
+            CustomDefinesManager.AddDefine("MUFFINDEV__1_0_0");
+        }
+
+    }
+
+}
