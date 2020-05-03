@@ -12,9 +12,9 @@
             CustomDefinesManager.AddDefines(new string[]
             {
                 "MUFFINDEV_",
-                "MUFFINDEV__1",
-                "MUFFINDEV__1_0",
-                "MUFFINDEV__1_0_0"
+                "MUFFINDEV__2",
+                "MUFFINDEV__2_0",
+                "MUFFINDEV__2_0_0"
             });
         }
 
