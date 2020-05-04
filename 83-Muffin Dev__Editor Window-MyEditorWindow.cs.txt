@@ -33,7 +33,7 @@ namespace MuffinDev
 		[MenuItem(MENU_ITEM, false, MuffinDevUtility.MENU_ORDER)]
         public static void ShowWindow()
         {
-            "#SCRIPTNAME#" window = GetWindow<"#SCRIPTNAME#">(false, WINDOW_TITLE, true) as "#SCRIPTNAME#";
+            #SCRIPTNAME# window = GetWindow<#SCRIPTNAME#>(false, WINDOW_TITLE, true);
             window.Show();
         }
 
