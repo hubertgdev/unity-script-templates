@@ -9,13 +9,7 @@
 
         static #SCRIPTNAME#()
         {
-            CustomDefinesManager.AddDefines(new string[]
-            {
-                "MUFFINDEV_",
-                "MUFFINDEV__2",
-                "MUFFINDEV__2_0",
-                "MUFFINDEV__2_0_0"
-            });
+            MuffinDevUtility.SetModuleDefines("", 2, 0, 0);
         }
 
     }
