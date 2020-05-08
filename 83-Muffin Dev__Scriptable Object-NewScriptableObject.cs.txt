@@ -6,7 +6,7 @@ namespace MuffinDev
     ///<summary>
     /// 
     ///</summary>
-    [CreateAssetMenu(fileName = "New#SCRIPTNAME#", menuName = MuffinDevUtility.MENU_NAME + "#SCRIPTNAME#", order = MuffinDevUtility.MENU_ORDER)]
+    [CreateAssetMenu(fileName = "New#SCRIPTNAME#", menuName = MuffinDevOptions.MENU_NAME + "#SCRIPTNAME#", order = MuffinDevOptions.MENU_ORDER)]
     public class #SCRIPTNAME# : ScriptableObject
     {
 
