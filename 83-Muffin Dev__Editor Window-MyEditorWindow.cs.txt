@@ -12,7 +12,7 @@ namespace MuffinDev
 
 		#region Properties
 
-		private const string MENU_ITEM = MuffinDevOptions.MENU_NAME + "#SCRIPTNAME#";
+		private const string MENU_ITEM = "Tools/Muffin Dev/#SCRIPTNAME#";
         private const string WINDOW_TITLE = "#SCRIPTNAME#";
 
 		#endregion
@@ -30,7 +30,7 @@ namespace MuffinDev
 
 		#region Public Methods
 
-		[MenuItem(MENU_ITEM, false, MuffinDevOptions.MENU_ORDER)]
+		[MenuItem(MENU_ITEM, false)]
         public static void ShowWindow()
         {
             #SCRIPTNAME# window = GetWindow<#SCRIPTNAME#>(false, WINDOW_TITLE, true);

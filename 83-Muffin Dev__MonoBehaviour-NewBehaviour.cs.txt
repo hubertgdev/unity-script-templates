@@ -6,7 +6,7 @@ namespace MuffinDev
     ///<summary>
     /// 
     ///</summary>
-    [AddComponentMenu(MuffinDevUtility.MENU_NAME + "#SCRIPTNAME#")]
+    [AddComponentMenu("Muffin Dev/#SCRIPTNAME#")]
     public class #SCRIPTNAME# : MonoBehaviour
     {
 
