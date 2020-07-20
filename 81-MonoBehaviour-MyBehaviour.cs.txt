@@ -1,12 +1,17 @@
 ﻿using UnityEngine;
 
-///<summary>
-/// 
-///</summary>
-//[AddComponentMenu("Scripts/#SCRIPTNAME#")]
-public class #SCRIPTNAME# : MonoBehaviour
+namespace Game
 {
 
-	
+    ///<summary>
+    /// 
+    ///</summary>
+    //[AddComponentMenu("_GAME/#SCRIPTNAME#")]
+    public class #SCRIPTNAME# : MonoBehaviour
+    {
+
+        
+
+    }
 
 }

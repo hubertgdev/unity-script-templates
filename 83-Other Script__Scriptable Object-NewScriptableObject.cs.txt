@@ -1,12 +1,17 @@
 ﻿using UnityEngine;
 
-///<summary>
-/// 
-///</summary>
-//[CreateAssetMenu(fileName = "New#SCRIPTNAME#", menuName = "#SCRIPTNAME#")]
-public class #SCRIPTNAME# : ScriptableObject
+namespace Game
 {
 
+    ///<summary>
+    /// 
+    ///</summary>
+    //[CreateAssetMenu(fileName = "New#SCRIPTNAME#", menuName = "_GAME/#SCRIPTNAME#")]
+    public class #SCRIPTNAME# : ScriptableObject
+    {
 
+
+
+    }
 
 }
