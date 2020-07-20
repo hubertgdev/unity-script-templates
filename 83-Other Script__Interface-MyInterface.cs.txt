@@ -1,16 +1,21 @@
 ﻿//using UnityEngine;
 
-///<summary>
-/// 
-///</summary>
-public interface #SCRIPTNAME#
+namespace Game
 {
 
-	#region Methods
-	#endregion
+	///<summary>
+	/// 
+	///</summary>
+	public interface #SCRIPTNAME#
+	{
 
-	
-	#region Accessors
-	#endregion
+		#region Methods
+		#endregion
+
+		
+		#region Accessors
+		#endregion
+
+	}
 
 }
