@@ -6,38 +6,41 @@
 using UnityEngine;
 using UnityEditor;
 
-namespace MuffinDev;
-
-/// <summary>
-/// Custom editor for <see cref="#SCRIPTNAME#"/> objects.
-/// </summary>
-//[CustomEditor(typeof(#SCRIPTNAME#))]
-public class #SCRIPTNAME# : Editor
+namespace MuffinDev
 {
 
-    #region Lifecycle
-
     /// <summary>
-    /// Called when this editor is loaded.
+    /// Custom editor for <see cref="#SCRIPTNAME#"/> objects.
     /// </summary>
-    //private void OnEnable()
-    //{
-    //
-    //}
+    //[CustomEditor(typeof(#SCRIPTNAME#))]
+    public class #SCRIPTNAME# : Editor
+    {
 
-    #endregion
+        #region Lifecycle
+
+        /// <summary>
+        /// Called when this editor is loaded.
+        /// </summary>
+        //private void OnEnable()
+        //{
+        //
+        //}
+
+        #endregion
 
 
-    #region UI
+        #region UI
 
-    /// <summary>
-    /// Draws the GUI of the edited object.
-    /// </summary>
-    //public override void OnInspectorGUI()
-    //{
-    //		base.OnInspectorGUI();
-    //}
+        /// <summary>
+        /// Draws the GUI of the edited object.
+        /// </summary>
+        //public override void OnInspectorGUI()
+        //{
+        //		base.OnInspectorGUI();
+        //}
 
-    #endregion
+        #endregion
+
+    }
 
 }

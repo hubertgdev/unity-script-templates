@@ -5,15 +5,18 @@
 
 using UnityEngine;
 
-namespace MuffinDev;
-
-///<summary>
-/// 
-///</summary>
-[AddComponentMenu("Muffin Dev/#SCRIPTNAME#")]
-public class #SCRIPTNAME# : MonoBehaviour
+namespace MuffinDev
 {
 
-    
+    ///<summary>
+    /// 
+    ///</summary>
+    [AddComponentMenu("Muffin Dev/#SCRIPTNAME#")]
+    public class #SCRIPTNAME# : MonoBehaviour
+    {
+
+        
+
+    }
 
 }
