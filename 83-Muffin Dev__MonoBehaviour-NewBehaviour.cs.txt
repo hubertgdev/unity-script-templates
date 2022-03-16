@@ -1,17 +1,19 @@
+/**
+ * MuffinDev © 2022
+ * Author: Hubert GROSSIN - dev@hubertg.fr
+ */
+
 using UnityEngine;
 
-namespace MuffinDev
+namespace MuffinDev;
+
+///<summary>
+/// 
+///</summary>
+[AddComponentMenu("Muffin Dev/#SCRIPTNAME#")]
+public class #SCRIPTNAME# : MonoBehaviour
 {
 
-    ///<summary>
-    /// 
-    ///</summary>
-    [AddComponentMenu("Muffin Dev/#SCRIPTNAME#")]
-    public class #SCRIPTNAME# : MonoBehaviour
-    {
-
-        
-
-    }
+    
 
 }

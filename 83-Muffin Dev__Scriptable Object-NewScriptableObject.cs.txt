@@ -1,17 +1,19 @@
-﻿using UnityEngine;
+﻿/**
+ * MuffinDev © 2022
+ * Author: Hubert GROSSIN - dev@hubertg.fr
+ */
 
-namespace MuffinDev
+using UnityEngine;
+
+namespace MuffinDev;
+
+///<summary>
+/// 
+///</summary>
+[CreateAssetMenu(fileName = "New#SCRIPTNAME#", menuName = "Muffin Dev/#SCRIPTNAME#")]
+public class #SCRIPTNAME# : ScriptableObject
 {
 
-    ///<summary>
-    /// 
-    ///</summary>
-    [CreateAssetMenu(fileName = "New#SCRIPTNAME#", menuName = "Muffin Dev/#SCRIPTNAME#")]
-    public class #SCRIPTNAME# : ScriptableObject
-    {
-
-        
-
-    }
+    
 
 }

@@ -1,15 +1,17 @@
-namespace MuffinDev
+/**
+ * MuffinDev © 2022
+ * Author: Hubert GROSSIN - dev@hubertg.fr
+ */
+
+namespace MuffinDev;
+
+/// <summary>
+/// 
+/// </summary>
+//[System.Serializable]
+public struct #SCRIPTNAME#
 {
 
-	///<summary>
-	/// 
-	///</summary>
-	[System.Serializable]
-	public struct #SCRIPTNAME#
-	{
-
-		
-
-	}
+	
 
 }

@@ -1,26 +1,43 @@
-﻿using UnityEngine;
+﻿/**
+ * MuffinDev © 2022
+ * Author: Hubert GROSSIN - dev@hubertg.fr
+ */
+
+using UnityEngine;
 using UnityEditor;
 
-namespace MuffinDev
+namespace MuffinDev;
+
+/// <summary>
+/// Custom editor for <see cref="#SCRIPTNAME#"/> objects.
+/// </summary>
+//[CustomEditor(typeof(#SCRIPTNAME#))]
+public class #SCRIPTNAME# : Editor
 {
 
-	///<summary>
-	/// 
-	///</summary>
-	//[CustomEditor(typeof(#SCRIPTNAME#))]
-	public class #SCRIPTNAME# : Editor
-	{
+    #region Lifecycle
 
-		//private void OnEnable()
-		//{
-		//
-		//}
+    /// <summary>
+    /// Called when this editor is loaded.
+    /// </summary>
+    //private void OnEnable()
+    //{
+    //
+    //}
 
-		//public override void OnInspectorGUI()
-		//{
-		//		base.OnInspectorGUI();
-		//}
+    #endregion
 
-	}
+
+    #region UI
+
+    /// <summary>
+    /// Draws the GUI of the edited object.
+    /// </summary>
+    //public override void OnInspectorGUI()
+    //{
+    //		base.OnInspectorGUI();
+    //}
+
+    #endregion
 
 }

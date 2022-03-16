@@ -1,54 +1,65 @@
-﻿using UnityEngine;
+﻿/**
+ * MuffinDev © 2022
+ * Author: Hubert GROSSIN - dev@hubertg.fr
+ */
+
+using UnityEngine;
 using UnityEditor;
 
-namespace MuffinDev
+namespace MuffinDev;
+
+/// <summary>
+/// 
+/// </summary>
+public class #SCRIPTNAME# : EditorWindow
 {
 
-	///<summary>
-	/// 
-	///</summary>
-	public class #SCRIPTNAME# : EditorWindow
-	{
+    #region Fields
 
-		#region Properties
+    private const string WINDOW_TITLE = "#SCRIPTNAME#";
+    private const string MENU_ITEM = "Tools/Muffin Dev/" + WINDOW_TITLE;
 
-		private const string MENU_ITEM = "Tools/Muffin Dev/#SCRIPTNAME#";
-        private const string WINDOW_TITLE = "#SCRIPTNAME#";
-
-		#endregion
+    #endregion
 
 
-		#region Lifecycle
+    #region Lifecycle
 
-		//private void OnEnable()
-		//{
-		
-		//}
+    /// <summary>
+    /// Called when this window is open.
+    /// </summary>
+    //private void OnEnable()
+    //{
+    
+    //}
 
-		#endregion
-
-
-		#region Public Methods
-
-		[MenuItem(MENU_ITEM, false)]
-        public static void ShowWindow()
-        {
-            #SCRIPTNAME# window = GetWindow<#SCRIPTNAME#>(false, WINDOW_TITLE, true);
-            window.Show();
-        }
-
-		#endregion
+    #endregion
 
 
-		#region UI
+    #region Public API
 
-		//private void OnGUI()
-		//{
-			
-		//}
+    /// <summary>
+    /// Opens this editor window.
+    /// </summary>
+    [MenuItem(MENU_ITEM)]
+    public static void ShowWindow()
+    {
+        #SCRIPTNAME# window = GetWindow<#SCRIPTNAME#>(false, WINDOW_TITLE, true);
+        window.Show();
+    }
 
-		#endregion
+    #endregion
 
-	}
+
+    #region UI
+
+    /// <summary>
+    /// Draws this window GUI on screen.
+    /// </summary>
+    //private void OnGUI()
+    //{
+        
+    //}
+
+    #endregion
 
 }
