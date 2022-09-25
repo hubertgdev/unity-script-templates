@@ -1,0 +1,23 @@
+using UnityEngine;
+using UnityEngine.Playables;
+
+    #ROOTNAMESPACEBEGIN#
+
+/// <summary>
+/// 
+/// </summary>
+[System.Serializable]
+public class #SCRIPTNAME# : PlayableAsset
+{
+    
+    /// <summary>
+    /// Factory method that generates a playable based on this asset.
+    /// </summary>
+    public override Playable CreatePlayable(PlayableGraph graph, GameObject go)
+    {
+        return Playable.Create(graph);
+    }
+
+}
+
+#ROOTNAMESPACEEND#

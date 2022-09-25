@@ -1,0 +1,25 @@
+using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+
+/// <summary>
+/// 
+/// </summary>
+//[AddComponentMenu("#SCRIPTNAME#")]
+public class #SCRIPTNAME# : MonoBehaviour
+{
+
+    #region Fields
+    #endregion
+
+
+    #region Lifecycle
+    #endregion
+
+
+    #region Public API
+    #endregion
+
+}
+
+#ROOTNAMESPACEEND#

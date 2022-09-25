@@ -1,0 +1,31 @@
+//using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+
+/// <summary>
+/// 
+/// </summary>
+//[System.Serializable]
+public class #SCRIPTNAME#
+{
+
+    #region Fields
+    #endregion
+
+
+    #region Lifecycle
+
+    public #SCRIPTNAME#()
+    {
+        #NOTRIM#
+    }
+
+    #endregion
+
+
+    #region Public API
+    #endregion
+
+}
+
+#ROOTNAMESPACEEND#

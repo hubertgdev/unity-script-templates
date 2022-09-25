@@ -1,0 +1,56 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+    #ROOTNAMESPACEBEGIN#
+
+/// <summary>
+/// 
+/// </summary>
+public class #SCRIPTNAME# : StateMachineBehaviour
+{
+
+    /// <summary>
+    /// Called when a transition starts and the state machine starts to evaluate this state.
+    /// </summary>
+    override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        #NOTRIM#
+    }
+
+    /// <summary>
+    /// Called on each Update frame between OnStateEnter and OnStateExit callbacks.
+    /// </summary>
+    override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        #NOTRIM#
+    }
+
+    /// <summary>
+    /// Called when a transition ends and the state machine finishes evaluating this state.
+    /// </summary>
+    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        #NOTRIM#
+    }
+
+    /// <summary>
+    /// Called right after <see cref="Animator.OnAnimatorMove()"/>.<br/>
+    /// Implements code that processes and affects root motion.
+    /// </summary>
+    // override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    // {
+        #NOTRIM#
+    // }
+
+    /// <summary>
+    /// Called right after <see cref="Animator.OnAnimatorIK()"/>.<br/>
+    /// Implements code that sets up animation IK (inverse kinematics).
+    /// </summary>
+    // override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    // {
+        #NOTRIM#
+    // }
+}
+
+#ROOTNAMESPACEEND#
