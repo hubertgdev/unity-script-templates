@@ -5,13 +5,16 @@
 
 using UnityEngine;
 
+using MuffinDev.Core;
+
 namespace MuffinDev
 {
 
     /// <summary>
     /// 
     /// </summary>
-    //[AddComponentMenu("#SCRIPTNAME#")]
+    [AddComponentMenu(Constants.ADD_COMPONENT_MENU + "/#SCRIPTNAME#")]
+    [HelpURL(Constants.BASE_HELP_URL)]
     public class #SCRIPTNAME# : MonoBehaviour
     {
 
