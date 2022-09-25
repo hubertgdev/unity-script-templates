@@ -1,0 +1,63 @@
+using UnityEngine;
+using UnityEditor;
+
+    #ROOTNAMESPACEBEGIN#
+
+/// <summary>
+/// 
+/// </summary>
+public class #SCRIPTNAME# : EditorWindow
+{
+
+    #region Fields
+
+    private const string WINDOW_TITLE = "#SCRIPTNAME#";
+    private const string MENU_ITEM = "Tools/" + WINDOW_TITLE;
+
+    #endregion
+
+
+    #region Lifecycle
+
+    /// <summary>
+    /// Called when this window is open.
+    /// </summary>
+    private void OnEnable()
+    {
+        #NOTRIM#
+    }
+
+    #endregion
+
+
+    #region Public API
+
+    /// <summary>
+    /// Opens this editor window.
+    /// </summary>
+    [MenuItem(MENU_ITEM)]
+    public static #SCRIPTNAME# Open()
+    {
+        #SCRIPTNAME# window = GetWindow<#SCRIPTNAME#>(false, WINDOW_TITLE, true);
+        window.Show();
+        return window;
+    }
+
+    #endregion
+
+
+    #region UI
+
+    /// <summary>
+    /// Draws this window GUI on screen.
+    /// </summary>
+    private void OnGUI()
+    {
+        #NOTRIM#
+    }
+
+    #endregion
+
+}
+
+#ROOTNAMESPACEEND#

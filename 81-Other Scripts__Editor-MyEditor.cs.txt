@@ -1,0 +1,44 @@
+using UnityEngine;
+using UnityEditor;
+
+    #ROOTNAMESPACEBEGIN#
+
+/// <summary>
+/// Custom editor for <see cref="#SCRIPTNAME#"/> objects.
+/// </summary>
+[CustomEditor(typeof(#SCRIPTNAME#))]
+public class #SCRIPTNAME# : Editor
+{
+
+    #region Fields
+    #endregion
+
+
+    #region Lifecycle
+
+    /// <summary>
+    /// Called when this editor is loaded.
+    /// </summary>
+    private void OnEnable()
+    {
+        #NOTRIM#
+    }
+
+    #endregion
+
+
+    #region UI
+
+    /// <summary>
+    /// Draws the GUI for the edited object(s).
+    /// </summary>
+    public override void OnInspectorGUI()
+    {
+        base.OnInspectorGUI();
+    }
+
+    #endregion
+
+}
+
+#ROOTNAMESPACEEND#

@@ -1,0 +1,6 @@
+{
+  "name": "#SCRIPTNAME#",
+  "includePlatforms": [
+    "Editor"
+	]
+}
