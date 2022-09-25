@@ -1,0 +1,29 @@
+/**
+ * MuffinDev © 2022
+ * Author: Hubert GROSSIN - dev@hubertg.fr
+ */
+
+using UnityEngine;
+
+using MuffinDev.Core;
+
+namespace MuffinDev
+{
+
+    /// <summary>
+    /// 
+    /// </summary>
+    [CreateAssetMenu(fileName = "New#SCRIPTNAME#", menuName = Constants.CREATE_ASSET_MENU + "/#SCRIPTNAME#")]
+    public class #SCRIPTNAME# : ScriptableObject
+    {
+
+        #region Fields
+        #endregion
+
+
+        #region Public API
+        #endregion
+
+    }
+
+}
